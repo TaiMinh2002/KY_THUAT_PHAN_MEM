@@ -450,6 +450,7 @@ public class frmNguoiDung extends javax.swing.JFrame {
             System.out.println(e.toString());
         }
     }
+    
     private void setSelectedCombobox(String tenQuyen){
         
         for(int i = 0; i < cbbQuyen.getItemCount(); i++){

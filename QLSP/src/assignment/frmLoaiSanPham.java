@@ -280,7 +280,7 @@ public class frmLoaiSanPham extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowOpened
 
     private void tblLoaiSanPhamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblLoaiSanPhamMouseClicked
-        // TODO add your handling code here:
+        // tao jtable de hien thi 
         Main.playSound("soundbutton.wav");
         int index = tblLoaiSanPham.getSelectedRow();
         txtMaLoaiSP.setText(tblLoaiSanPham.getValueAt(index, 1).toString());

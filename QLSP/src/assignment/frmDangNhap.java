@@ -154,7 +154,7 @@ public class frmDangNhap extends javax.swing.JFrame {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
-            Logger.getLogger(frmDangNhap.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(frmDangNhap.class.getName()).log(Level.SEVERE, null, ex); //tim va tao nhat ky
         }
         frmDangKy frmDK = new frmDangKy();
         frmDK.show();
